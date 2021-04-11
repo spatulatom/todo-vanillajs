@@ -13,7 +13,7 @@ filterOption.addEventListener("click", filterTodo);
 //Functions
 
 function addTodo(e) {
-  //Prevent natural behaviour
+      //Prevent natural behaviour
   e.preventDefault();
   //Create todo div
   const todoDiv = document.createElement("div");
@@ -37,7 +37,6 @@ function addTodo(e) {
   const trashButton = document.createElement("button");
   trashButton.innerHTML = `<i class="fas fa-trash"></i>`;
   trashButton.classList.add("trash-btn");
-  // trashButton.classList.add("bla bla");
   todoDiv.appendChild(trashButton);
   //attach final Todo
   todoList.appendChild(todoDiv);
@@ -45,11 +44,9 @@ function addTodo(e) {
 
 function deleteTodo(e) {
   const item = e.target;
-// console.log(item);
 
   if (item.classList[0] === "trash-btn") {
     // e.target.parentElement.remove();
-    // console.log(item.classList[1]);
     const todo = item.parentElement;
     todo.classList.add("fall");
     //at the end
@@ -111,7 +108,7 @@ function removeLocalTodos(todo) {
   localStorage.setItem("todos", JSON.stringify(todos));
 }
 
-function getTodos(){
+function getTodos() {
   let todos;
   if (localStorage.getItem("todos") === null) {
     todos = [];
