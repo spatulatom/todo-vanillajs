@@ -30,7 +30,9 @@
 
 ## About The Project
 
-This project is a simple to do list where todos can be created, marked as completed ot deleted. Beside a search bar we hava an option of displaying either all todos, completed todos ot uncompleted todos. Created todos are being saved in browser's localStorage.
+  This project is a simple to do list where todos can be created, marked as completed ot deleted.
+                  Beside a search bar we have an option of displaying either all todos, completed todos or uncompleted todos.
+                  Created todos are being saved in browser's localStorage.
 
 ![Product Name Screen Shot](imgs/todovanillajs.png)
 
@@ -44,12 +46,7 @@ This project is a simple to do list where todos can be created, marked as comple
 - CSS,
 - JavaScript,
 - GitHub pages for deployment and remote repository,
-- Git for version control,
--
-
-- Contact page of this project is using backend built wit Node and Express.js,
-SendGrid API is used for sending emails. The server is running on render.com. GitHub repository of the backend is stored <a href="https://github.com/spatulatom/my-porfolio-backend"><strong>right here »</strong></a>
-
+- Git for version control.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
