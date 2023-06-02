@@ -5,7 +5,7 @@ const todoList = document.querySelector(".todo-list");
 const filterOption = document.querySelector(".filter-todo");
 
 //Event Listeners
-document.addEventListener("DOMContentLoaded", getTodos);
+// document.addEventListener("DOMContentLoaded", getTodos);
 todoButton.addEventListener("click", addTodo);
 todoList.addEventListener("click", deleteTodo);
 filterOption.addEventListener("click", filterTodo);
@@ -139,3 +139,6 @@ function getTodos() {
     todoList.appendChild(todoDiv);
   });
 }
+// instead adding event listener to the document on load we can execute
+// our function here
+addTodo()
