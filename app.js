@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 //Select DOM
 const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
